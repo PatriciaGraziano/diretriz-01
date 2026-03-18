@@ -1,0 +1,79 @@
+*{
+    margin: 0px; 
+    padding: 0px;
+
+}
+.deretriz{ 
+   width: 90%;
+    margin: 0px auto;  
+}
+
+.deretriz header { 
+    background: #094199;
+    display: block;
+        padding: 10px;
+
+}
+.deretriz header h6{ 
+    width:100%; 
+    color: #fff;
+    font-size: 16px;    
+    font-family: "Inter", sans-serif;
+}
+.deretriz header p{ 
+    width:100%; 
+    color: #fff;
+    font-size: 16px;    
+    font-family: "Inter", sans-serif;
+}
+
+.deretriz .corpo{
+   box-shadow: 1px 3px 10px #efefef;
+   padding: 16px;
+   font-family: "Inter", sans-serif;
+   color: #8D8D8D;
+}
+.deretriz .corpo p{
+    line-height: 24px;;
+}
+
+
+.deretriz .corpo ul{
+    margin-left: 1rem;
+    line-height: 27px;
+}
+.verde{
+    color:#007658;
+}
+.azul-f{
+    color:#094199;
+}
+.azul-cl{
+    color:#0082B3;
+}
+.marrom{
+    color:#8B4428;
+}
+.laranja{
+    color:#FB8640;
+}
+
+
+
+
+
+
+@media screen and  (max-width: 991px){
+    .desafio{
+        background: #F3F3F3 url('img/bg.png') no-repeat;
+        background-position: bottom;
+        background-size: 63%;
+        width: 100%;
+        height: 470px;
+        align-items: flex-start;
+    }
+    .desafio p{     
+    font-size: 18px !important;
+    }
+
+}
