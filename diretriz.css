@@ -46,8 +46,8 @@
 }
 @media screen and  (max-width: 991px){
     .deretriz .corpo{ 
-        max-height: 450px;
-        overflow: scroll; 
+        max-height: 390px;
+        overflow-x: auto; 
     }
 }
 .deretriz .corpo p{
