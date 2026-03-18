@@ -4,7 +4,7 @@
 
 }
 .deretriz{ 
-   width: 100%;
+   width: 98%;
     margin: 0px auto;  
 }
 @media screen and  (max-width: 991px){
@@ -46,7 +46,7 @@
 }
 @media screen and  (max-width: 991px){
     .deretriz .corpo{ 
-        max-height: 470px;
+        max-height: 450px;
         overflow: scroll; 
     }
 }
