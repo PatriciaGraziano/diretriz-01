@@ -11,7 +11,8 @@
 .deretriz header { 
     background: #094199;
     display: block;
-        padding: 10px;
+    padding: 10px;
+    position:relative;
 
 }
 .deretriz header h6{ 
@@ -25,6 +26,11 @@
     color: #fff;
     font-size: 16px;    
     font-family: "Inter", sans-serif;
+}
+.deretriz header img{ 
+    position: absolute;
+        right: 1rem;
+    top: 0.5rem;
 }
 
 .deretriz .corpo{
@@ -41,12 +47,15 @@
 .deretriz .corpo ul{
     margin-left: 1rem;
     line-height: 27px;
+    margin-bottom: 1rem;
+        margin-top: 1rem;
 }
 .verde{
     color:#007658;
 }
 .azul-f{
     color:#094199;
+    font-weight: 600;
 }
 .azul-cl{
     color:#0082B3;
