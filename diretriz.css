@@ -7,7 +7,12 @@
    width: 90%;
     margin: 0px auto;  
 }
-
+@media screen and  (max-width: 991px){
+    .deretriz{ 
+        width: 96%;
+        margin: 0px auto;  
+    }
+}
 .deretriz header { 
     background: #094199;
     display: block;
@@ -38,6 +43,12 @@
    padding: 16px;
    font-family: "Inter", sans-serif;
    color: #8D8D8D;
+}
+@media screen and  (max-width: 991px){
+    .deretriz .corpo{ 
+        max-height: 470px;
+        overflow: scroll; 
+    }
 }
 .deretriz .corpo p{
     line-height: 24px;;
